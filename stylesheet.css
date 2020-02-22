@@ -1,0 +1,159 @@
+/* default function section */
+body{
+   /* font-family: 'Merriweather';*/
+   font-family: 'Roboto';
+    margin: 0;
+}
+h3{
+    font-weight: normal;
+    color: gray;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Fira Sans';
+}
+h1{
+    font-size: 40px;
+}
+section{
+    height:800px;
+    padding-top: 80px;
+}
+
+footer p{
+    font-size: 20px;
+    color:gray;
+    text-align: center;
+}
+
+/* id section */
+#baby_web{
+    border-left: 8px solid;
+    border-image:linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#full_stack_web{
+    border-left: 8px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+#some_description{
+
+    text-align: center;
+
+}
+#Founder{
+    text-align: center;
+    font-size: 10px;
+    color:gray;
+}
+#Bruce_moccoy{
+    text-align: center;
+    font-size: 15px;
+    color:black;
+}
+#client_say{
+    text-align: center;
+    font-size: 25px;
+    color:gray;
+}
+
+/* classes section */
+.name_highlight{
+    color: rgb(248, 73, 132);
+}
+.half{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.top-Banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.right-half{
+    margin-top:0px;
+}
+.link_button{
+        text-decoration: none;
+        background-image: linear-gradient(85deg,rgb(248, 73, 132),rgb(243, 124, 233));
+        padding:10px  20px;
+        border-radius: 5px;
+        color: white;
+}
+.link_button:hover{
+    text-decoration: none;
+        background-image: linear-gradient(85deg,rgb(248, 73, 132),rgb(243, 124, 233));
+        padding:13px  26px;
+        border-radius: 5px;
+        color:rgb(234, 238, 6);
+}
+.mid-banner{
+    margin-top: 0px;
+    background-image:url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.align_text_middle{
+    text-align: center;
+    font-size: 40px;
+    color: orangered;
+}
+.Work_div{
+    width: 30%;
+    float:left;
+    margin-left: 0%;
+    padding-left: 3%;
+    box-shadow: 8px 10px 15px 4px gray;
+}
+
+.My_latest_work{
+    height: 600px;
+}
+.Work_div img{
+    width: 100%;
+    padding-bottom: 70px;
+}
+.last_part{
+    background-image: url("images/footer-bg.png"); 
+    height:400px ;
+}
+.write_massage{
+    font-size: 15px;
+    text-align: center;
+    color: honeydew;
+}
+.class{
+    font-size: 25px;
+    text-align: center;
+    color: honeydew;
+}
+
+.last_part{
+    background-image: url("images/footer-bg.png"); 
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.Second_part{
+  text-align: center;
+    background-image: linear-gradient(85deg,rgb(248, 73, 132),rgb(243, 124, 233));
+    padding:10px  20px;
+   margin-left: 305px;
+   margin-right: 305px;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+}
+
+
+
